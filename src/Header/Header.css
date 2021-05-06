@@ -1,0 +1,32 @@
+.header {
+    max-width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.header__Title {
+    max-width: 100% !important;
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.header__Title > img {
+    width: 240px;
+    height: 240px;
+}
+
+.header__subTitle {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+}
+
+.header__subTitle > img {
+    width: 650px;
+    height: 180px;
+}

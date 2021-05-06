@@ -1,0 +1,79 @@
+.wordCount {
+    max-width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../Images/mirror.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 20px;
+}
+
+.wordCount__counters {
+    max-width: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.wordCount__counters > p {
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.wordCount__histogram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.wordCount__options {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.wordCount__option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    color: white;
+}
+.wordCount__optionsButton {
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    background: linear-gradient(to left,  #F20519, #8EA638);
+    color: white;
+    border: none;
+    outline: none;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.45);
+}
+
+.wordCount__optionsButton:hover {
+    cursor: pointer;
+}
+
+.wordCount__option > input {
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    outline: none;
+    margin-left: 10px;
+}
+
+.wordCount__paragraph {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    width: 40%;
+    color: white;
+    font-size: large;
+}
